@@ -2,11 +2,9 @@ class DataPost():
     """docstring for DataPost."""
 
     def __init__(self):
-
         super(DataPost, self).__init__()
 
     def PostToKillGorack(self, results):
-
         with open('key.txt') as f:
             first_line = f.readline()
         results['key'] = first_line

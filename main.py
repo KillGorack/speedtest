@@ -14,3 +14,4 @@ while 1:
         d.PostToKillGorack(results)
         print("test ran @ " + datetime.today().strftime('%Y-%m-%d %H:%M:%S'))
         current_hour = datetime.now().hour
+        

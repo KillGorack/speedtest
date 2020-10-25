@@ -5,7 +5,6 @@ class SpeedTest():
         super(SpeedTest, self).__init__()
 
     def Test(self):
-
         import speedtest
         from datetime import datetime
 
